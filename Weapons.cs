@@ -8,7 +8,7 @@ namespace MoreItems;
 
 public static class Weapons
 {
-    public static void LoadWeapons()
+    public static void Load()
     {
         
         // Butchering Axe

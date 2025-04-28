@@ -1,4 +1,3 @@
-using Dawnsbury.Core.Mechanics.Enumerations;
 using Dawnsbury.Modding;
 
 namespace MoreItems;
@@ -11,9 +10,9 @@ public class ModLoader
         //////////////////////
         // Class File Loads //
         //////////////////////
-        Weapons.LoadWeapons();
-        Armors.LoadArmors();
-        Shields.LoadShields();
+        Weapons.Load();
+        Armors.Load();
+        Shields.Load();
     }
 
     // (Anase) I propose that generalized methods for altering items are done in the style of With() methods. For now, these funcs
